@@ -12,9 +12,11 @@ and run from the LEAF panel.
 
 ## Demo video
 
-**LINK — paste the Google Drive share link here** (set to "Anyone with the
-link"). The video is recorded: `Riftbinder.mp4`, ~75 MB, with the voiceover in
-[`docs/VOICEOVER.md`](docs/VOICEOVER.md).
+**https://github.com/ohistudio/riftbinder/releases/download/v1.0/RiftBinder-demo.mp4**
+
+Direct download, public, no account needed (~75 MB, MP4). Also on the
+[v1.0 release page](https://github.com/ohistudio/riftbinder/releases/tag/v1.0).
+Voiceover script in [`docs/VOICEOVER.md`](docs/VOICEOVER.md).
 
 ## CLAD prompt log
 
