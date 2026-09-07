@@ -1,0 +1,77 @@
+- !<AssetImportMetadata/4faefd90-5100-4b19-8629-68768b673a89>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 74f677f5-6b80-4fa0-8102-a8d21979e0c3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 74f677f5-6b80-4fa0-8102-a8d21979e0c3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f8d8dd32-412f-4aad-992c-6f2ea99778cd
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f8d8dd32-412f-4aad-992c-6f2ea99778cd>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 6886c0da-3708-4a25-9615-b2ac0503af04
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    artMaterial: false
+    camera: false
+    cameraModule: false
+    cannedScanImage: false
+    eyeHeightCm: false
+    font: false
+    internetModule: false
+    remoteMediaModule: false
+    testCards: false
+    tileMaterial: false
+    tileMesh: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - tileMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      tileMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      artMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      font: !<reference.Font> 00000000-0000-0000-0000-000000000000
+      internetModule: !<reference.InternetModule> 00000000-0000-0000-0000-000000000000
+      remoteMediaModule: !<reference.RemoteMediaModule> 00000000-0000-0000-0000-000000000000
+      cameraModule: !<reference.CameraModule> 00000000-0000-0000-0000-000000000000
+      cannedScanImage: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      testCards: !<reference.Texture[]>
+        []
+      eyeHeightCm: !<float> 150.000000
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Asset.RenderMesh tileMesh {"hint":"1x1 plane mesh — tiles and panels scale it to size"}'
+    - '// @input Asset.Material tileMaterial {"hint":"Unlit material template — every tile clones it before tinting"}'
+    - '// @input Asset.Material artMaterial {"hint":"Unlit material with Base Texture enabled — carries card art"}'
+    - '// @input Asset.Font font {"hint":"Font for tile labels, focus text and the debug panel"}'
+    - "// @input Asset.InternetModule internetModule {\"hint\":\"Fetches card art from Riot's CDN on demand\"}"
+    - '// @input Asset.RemoteMediaModule remoteMediaModule {"hint":"Turns a fetched image into a Texture"}'
+    - '// @input Asset.CameraModule cameraModule {"hint":"Live camera for scanning physical cards (device only)"}'
+    - '// @input Asset.Texture cannedScanImage {"hint":"Stand-in card image so SCAN works with no camera"}'
+    - '// @input Asset.Texture[] testCards {"hint":"Extra card images for the detection test bed"}'
+    - "// @input float eyeHeightCm {\"hint\":\"Vertical offset from the user's eye line, cm. 0 is eye level.\"}"
+    - '// @input Component.Camera camera {"hint":"Camera to lay the experience out in front of. Found automatically if unset."}'

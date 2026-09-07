@@ -1,0 +1,6 @@
+# BEGIN Lens Studio managed Codex block
+[mcp_servers.lens-studio]
+url = "http://localhost:50040/mcp"
+http_headers = { Authorization = "Bearer AJ6bnpU2-lRPTZUsguNBxH33WPuX1VPGwNkzADpxFb5n3PLhKvy2IQ0qM2rnf05z" }
+default_tools_approval_mode = "approve"
+# END Lens Studio managed Codex block
