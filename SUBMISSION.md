@@ -40,9 +40,17 @@ questions about a card, suggests picks grounded in a shortlist chosen locally
 construction rules as you go, and turns legal with a chime. Two people in the
 same room can build one deck together over SpectaclesSyncKit.
 
-**How it responds to the theme.** _[ONE OR TWO SENTENCES ON THIS WEEK'S THEME —
-fill in. What the app does is above; this line should say why it is an answer
-to the brief.]_
+**How it responds to the theme — Week 4: Create.** A deck is a thing you make,
+and today making one means a browser tab, a spreadsheet, and a box of cards on
+the desk beside them, looking up each one by hand. RiftBinder puts the making
+where the cards already are: hold one up and it is read, in front of you;
+your deck is a sheet on the wall that fills as you go and tells you the moment
+it becomes legal; the assistant sits to one side and answers "what does this
+do" and "does it fit" without you leaving the table; and a friend in the same
+room can build the same deck with you. Faster because identification is a
+glance rather than a search, easier because the rules check themselves, and
+more intuitive because the deck is laid out the way people already lay decks
+out — on a table, in front of them, in sections.
 
 **Who it is for.** People who play Riftbound and own physical cards: the
 collector sorting a box, the player at a kitchen table with a friend arguing
