@@ -2,7 +2,7 @@
 
 ## Public project repo
 
-**https://github.com/REPO_URL_FILLED_BELOW**
+**https://github.com/ohistudio/riftbinder**
 
 Runs in Lens Studio 5.23 Preview against the real 1,451-card Riftbound
 catalogue. Open `DeckBuilder.esproj`, then **Window → Remote Service Gateway
