@@ -20,9 +20,14 @@ Voiceover script in [`docs/VOICEOVER.md`](docs/VOICEOVER.md).
 
 ## CLAD prompt log
 
-[`docs/CLAD-PROMPTS.md`](docs/CLAD-PROMPTS.md) — every instruction given to the
-agent across the build, in order, grouped by what was being worked on, with a
-note under each group tracing the prompts to the code they produced.
+Two files:
+
+- **[`docs/CLAD-PROMPT-LOG-RAW.txt`](docs/CLAD-PROMPT-LOG-RAW.txt)** — the raw
+  log: all 98 prompts typed to the agent, verbatim and timestamped, extracted
+  from the session transcript. Nothing corrected or grouped.
+- [`docs/CLAD-PROMPTS.md`](docs/CLAD-PROMPTS.md) — the same prompts curated:
+  spelling fixed, grouped by what was being worked on, each group traced to
+  the code it produced.
 
 The whole project was built this way: no line of it was typed into an editor
 by hand. The prompts are mostly observations rather than instructions — "buttons
