@@ -12,7 +12,9 @@ and run from the LEAF panel.
 
 ## Demo video
 
-**LINK — see "Recording the demo" below.**
+**LINK — paste the Google Drive share link here** (set to "Anyone with the
+link"). The video is recorded: `Riftbinder.mp4`, ~75 MB, with the voiceover in
+[`docs/VOICEOVER.md`](docs/VOICEOVER.md).
 
 ## CLAD prompt log
 
